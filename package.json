@@ -1,0 +1,25 @@
+{
+  "name": "wekool",
+  "author": "jack",
+  "version": "1.0.0",
+  "description": "An awesome project",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "nowa server",
+    "build": "nowa build"
+  },
+  "homepage": "",
+  "license": "MIT",
+  "dependencies": {
+    "natty-fetch": "~2.4.2",
+    "natty-storage": "~2.0.2",
+    "refast": "~1.2.3",
+    "uxcore": "~0.15.18"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.2"
+  }
+}

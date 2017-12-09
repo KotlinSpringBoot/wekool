@@ -1,0 +1,29 @@
+{
+  "name": "wekool",
+  "options": {
+    "type": "uxcore",
+    "template": "/Users/jack/.nowa-gui/template/nowa-template-uxcore-v_5",
+    "npm": "http://registry.npm.taobao.org",
+    "vars": {
+      "__LOCAL__": true
+    },
+    "buildvars": {
+      "__LOCAL__": [false]
+    },
+    "pages": true,
+    "injects": [
+      "uxcore/assets/iconfont.css",
+      "uxcore/assets/green.css",
+      "uxcore"
+    ],
+    "alias": {
+      "components":"components",
+      "db":"app/db.js",
+      "variables":"app/variables.js"
+    },
+    "mockapi": {
+      "/mock/user/query.json": "mock/user/query.js",
+      "/mock/article/query.json": "mock/article/query.js"
+    }
+  }
+}
