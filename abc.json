@@ -23,6 +23,7 @@
     },
     "mockapi": {
       "/mock/user/query.json": "mock/user/query.js",
+      "/mock/user/currentUser.json": "mock/user/currentUser.js",
       "/mock/article/query.json": "mock/article/query.js"
     }
   }

@@ -6,12 +6,6 @@ export function defaults() {
   };
 }
 
-export function updateState(ctx, data) {
-  ctx.setState(data);
-
-  return data;
-}
-
 export async function search(ctx, fromExec = {}, fromUpdateState) {
   let state = {};
 
@@ -38,4 +32,10 @@ export async function search(ctx, fromExec = {}, fromUpdateState) {
   }
 
   setState({ ...state, loading: false });
+}
+
+export function updateState(ctx, data) {
+  ctx.setState(data);
+
+  return data;
 }
